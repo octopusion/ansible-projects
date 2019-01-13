@@ -1,5 +1,5 @@
 ---
-- hosts: hostname
+- hosts: centos
   become_user: root
   tasks:
     - name: Install Samba Service
